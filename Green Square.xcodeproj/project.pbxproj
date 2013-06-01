@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACDFDBE8175A9398004DBDDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDFDBE7175A9398004DBDDC /* UIKit.framework */; };
+		ACDFDBEA175A9398004DBDDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDFDBE9175A9398004DBDDC /* Foundation.framework */; };
+		ACDFDBEC175A9398004DBDDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDFDBEB175A9398004DBDDC /* CoreGraphics.framework */; };
+		ACDFDBF2175A9398004DBDDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACDFDBF0175A9398004DBDDC /* InfoPlist.strings */; };
+		ACDFDBF4175A9398004DBDDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDFDBF3175A9398004DBDDC /* main.m */; };
+		ACDFDBF8175A9398004DBDDC /* GreenSquareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDFDBF7175A9398004DBDDC /* GreenSquareAppDelegate.m */; };
+		ACDFDBFA175A9398004DBDDC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDFDBF9175A9398004DBDDC /* Default.png */; };
+		ACDFDBFC175A9398004DBDDC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDFDBFB175A9398004DBDDC /* Default@2x.png */; };
+		ACDFDBFE175A9398004DBDDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDFDBFD175A9398004DBDDC /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACDFDBE4175A9398004DBDDC /* Green Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Square.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDFDBE7175A9398004DBDDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACDFDBE9175A9398004DBDDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACDFDBEB175A9398004DBDDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACDFDBEF175A9398004DBDDC /* Green Square-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Green Square-Info.plist"; sourceTree = "<group>"; };
+		ACDFDBF1175A9398004DBDDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACDFDBF3175A9398004DBDDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACDFDBF5175A9398004DBDDC /* Green Square-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Green Square-Prefix.pch"; sourceTree = "<group>"; };
+		ACDFDBF6175A9398004DBDDC /* GreenSquareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreenSquareAppDelegate.h; sourceTree = "<group>"; };
+		ACDFDBF7175A9398004DBDDC /* GreenSquareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenSquareAppDelegate.m; sourceTree = "<group>"; };
+		ACDFDBF9175A9398004DBDDC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ACDFDBFB175A9398004DBDDC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ACDFDBFD175A9398004DBDDC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDFDBE1175A9398004DBDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDFDBE8175A9398004DBDDC /* UIKit.framework in Frameworks */,
+				ACDFDBEA175A9398004DBDDC /* Foundation.framework in Frameworks */,
+				ACDFDBEC175A9398004DBDDC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACDFDBDB175A9398004DBDDC = {
+			isa = PBXGroup;
+			children = (
+				ACDFDBED175A9398004DBDDC /* Green Square */,
+				ACDFDBE6175A9398004DBDDC /* Frameworks */,
+				ACDFDBE5175A9398004DBDDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDFDBE5175A9398004DBDDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDFDBE4175A9398004DBDDC /* Green Square.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDFDBE6175A9398004DBDDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACDFDBE7175A9398004DBDDC /* UIKit.framework */,
+				ACDFDBE9175A9398004DBDDC /* Foundation.framework */,
+				ACDFDBEB175A9398004DBDDC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACDFDBED175A9398004DBDDC /* Green Square */ = {
+			isa = PBXGroup;
+			children = (
+				ACDFDBF6175A9398004DBDDC /* GreenSquareAppDelegate.h */,
+				ACDFDBF7175A9398004DBDDC /* GreenSquareAppDelegate.m */,
+				ACDFDBEE175A9398004DBDDC /* Supporting Files */,
+			);
+			path = "Green Square";
+			sourceTree = "<group>";
+		};
+		ACDFDBEE175A9398004DBDDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACDFDBEF175A9398004DBDDC /* Green Square-Info.plist */,
+				ACDFDBF0175A9398004DBDDC /* InfoPlist.strings */,
+				ACDFDBF3175A9398004DBDDC /* main.m */,
+				ACDFDBF5175A9398004DBDDC /* Green Square-Prefix.pch */,
+				ACDFDBF9175A9398004DBDDC /* Default.png */,
+				ACDFDBFB175A9398004DBDDC /* Default@2x.png */,
+				ACDFDBFD175A9398004DBDDC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDFDBE3175A9398004DBDDC /* Green Square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDFDC01175A9398004DBDDC /* Build configuration list for PBXNativeTarget "Green Square" */;
+			buildPhases = (
+				ACDFDBE0175A9398004DBDDC /* Sources */,
+				ACDFDBE1175A9398004DBDDC /* Frameworks */,
+				ACDFDBE2175A9398004DBDDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Green Square";
+			productName = "Green Square";
+			productReference = ACDFDBE4175A9398004DBDDC /* Green Square.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDFDBDC175A9398004DBDDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GreenSquare;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Glass Cube";
+			};
+			buildConfigurationList = ACDFDBDF175A9398004DBDDC /* Build configuration list for PBXProject "Green Square" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACDFDBDB175A9398004DBDDC;
+			productRefGroup = ACDFDBE5175A9398004DBDDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDFDBE3175A9398004DBDDC /* Green Square */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDFDBE2175A9398004DBDDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDFDBF2175A9398004DBDDC /* InfoPlist.strings in Resources */,
+				ACDFDBFA175A9398004DBDDC /* Default.png in Resources */,
+				ACDFDBFC175A9398004DBDDC /* Default@2x.png in Resources */,
+				ACDFDBFE175A9398004DBDDC /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDFDBE0175A9398004DBDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDFDBF4175A9398004DBDDC /* main.m in Sources */,
+				ACDFDBF8175A9398004DBDDC /* GreenSquareAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACDFDBF0175A9398004DBDDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDFDBF1175A9398004DBDDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDFDBFF175A9398004DBDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACDFDC00175A9398004DBDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDFDC02175A9398004DBDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Green Square/Green Square-Prefix.pch";
+				INFOPLIST_FILE = "Green Square/Green Square-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACDFDC03175A9398004DBDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Green Square/Green Square-Prefix.pch";
+				INFOPLIST_FILE = "Green Square/Green Square-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDFDBDF175A9398004DBDDC /* Build configuration list for PBXProject "Green Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDFDBFF175A9398004DBDDC /* Debug */,
+				ACDFDC00175A9398004DBDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDFDC01175A9398004DBDDC /* Build configuration list for PBXNativeTarget "Green Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDFDC02175A9398004DBDDC /* Debug */,
+				ACDFDC03175A9398004DBDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDFDBDC175A9398004DBDDC /* Project object */;
+}
