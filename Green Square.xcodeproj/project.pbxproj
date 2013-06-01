@@ -19,6 +19,8 @@
 		ACDFDC05175A955F004DBDDC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDFDC04175A955F004DBDDC /* QuartzCore.framework */; };
 		ACDFDC07175A9564004DBDDC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDFDC06175A9564004DBDDC /* OpenGLES.framework */; };
 		ACDFDC09175A9569004DBDDC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDFDC08175A9569004DBDDC /* GLKit.framework */; };
+		ACDFDC0B175A95A3004DBDDC /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDFDC0A175A95A3004DBDDC /* iPhone.storyboard */; };
+		ACDFDC0E175A9613004DBDDC /* GreenSquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDFDC0D175A9613004DBDDC /* GreenSquareViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,9 @@
 		ACDFDC04175A955F004DBDDC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		ACDFDC06175A9564004DBDDC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		ACDFDC08175A9569004DBDDC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		ACDFDC0A175A95A3004DBDDC /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		ACDFDC0C175A9613004DBDDC /* GreenSquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GreenSquareViewController.h; path = ../GreenSquareViewController.h; sourceTree = "<group>"; };
+		ACDFDC0D175A9613004DBDDC /* GreenSquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GreenSquareViewController.m; path = ../GreenSquareViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 		ACDFDBDB175A9398004DBDDC = {
 			isa = PBXGroup;
 			children = (
+				ACDFDC0A175A95A3004DBDDC /* iPhone.storyboard */,
 				ACDFDC08175A9569004DBDDC /* GLKit.framework */,
 				ACDFDC06175A9564004DBDDC /* OpenGLES.framework */,
 				ACDFDC04175A955F004DBDDC /* QuartzCore.framework */,
@@ -90,8 +96,8 @@
 		ACDFDBED175A9398004DBDDC /* Green Square */ = {
 			isa = PBXGroup;
 			children = (
-				ACDFDBF6175A9398004DBDDC /* GreenSquareAppDelegate.h */,
-				ACDFDBF7175A9398004DBDDC /* GreenSquareAppDelegate.m */,
+				ACDFDC0C175A9613004DBDDC /* GreenSquareViewController.h */,
+				ACDFDC0D175A9613004DBDDC /* GreenSquareViewController.m */,
 				ACDFDBEE175A9398004DBDDC /* Supporting Files */,
 			);
 			path = "Green Square";
@@ -100,6 +106,8 @@
 		ACDFDBEE175A9398004DBDDC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ACDFDBF6175A9398004DBDDC /* GreenSquareAppDelegate.h */,
+				ACDFDBF7175A9398004DBDDC /* GreenSquareAppDelegate.m */,
 				ACDFDBEF175A9398004DBDDC /* Green Square-Info.plist */,
 				ACDFDBF0175A9398004DBDDC /* InfoPlist.strings */,
 				ACDFDBF3175A9398004DBDDC /* main.m */,
@@ -167,6 +175,7 @@
 				ACDFDBFA175A9398004DBDDC /* Default.png in Resources */,
 				ACDFDBFC175A9398004DBDDC /* Default@2x.png in Resources */,
 				ACDFDBFE175A9398004DBDDC /* Default-568h@2x.png in Resources */,
+				ACDFDC0B175A95A3004DBDDC /* iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +188,7 @@
 			files = (
 				ACDFDBF4175A9398004DBDDC /* main.m in Sources */,
 				ACDFDBF8175A9398004DBDDC /* GreenSquareAppDelegate.m in Sources */,
+				ACDFDC0E175A9613004DBDDC /* GreenSquareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
